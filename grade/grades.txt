@@ -1,0 +1,4 @@
+Math,1,2,1,100
+English,2,1,4,50
+Physics,3,1,5,10
+History,1,2,1,40
