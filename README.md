@@ -12,7 +12,7 @@ This is a student information management platform designed for course lecturer a
 3. Install relevant libraries and encoding and decoding tools
 4. You can compile and run on the terminal or import projects in the IDE
 
-### Dependance Installation
+### Dependence Installation
 #### JDK Libraries
 ...
 #### Encoding and Decoding Tools
