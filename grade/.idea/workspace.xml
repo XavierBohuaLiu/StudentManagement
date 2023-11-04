@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c95fe840-be80-4d13-b217-140fef4c9c81" name="更改" comment="更改">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../readme.txt" beforeDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentGradeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentGradeApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../readme.txt" afterDir="false" />
+>>>>>>> 62dfdae593b6c73e1c0a7256bf9989e1e040f94f
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +49,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="项目" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager" selected="应用程序.execute">
@@ -108,7 +115,12 @@
       <workItem from="1697361822899" duration="559000" />
       <workItem from="1697378423107" duration="2198000" />
       <workItem from="1697457598657" duration="1875000" />
+<<<<<<< HEAD
       <workItem from="1699118162387" duration="27000" />
+=======
+      <workItem from="1697715841233" duration="20000" />
+      <workItem from="1699020282718" duration="674000" />
+>>>>>>> 62dfdae593b6c73e1c0a7256bf9989e1e040f94f
     </task>
     <servers />
   </component>
