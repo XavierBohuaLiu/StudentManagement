@@ -5,30 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c95fe840-be80-4d13-b217-140fef4c9c81" name="更改" comment="更改">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/download/1681490098994.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grades.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/gnujaxp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jcommon-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileUploaderGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StudentGradeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VolunteeringApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grades.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/portfolio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/1681490098994.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/volunteering_data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +22,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2QKyruy5mnvVr3rHYZdXHijI22h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -128,6 +108,7 @@
       <workItem from="1697361822899" duration="559000" />
       <workItem from="1697378423107" duration="2198000" />
       <workItem from="1697457598657" duration="1875000" />
+      <workItem from="1699118162387" duration="27000" />
     </task>
     <servers />
   </component>
