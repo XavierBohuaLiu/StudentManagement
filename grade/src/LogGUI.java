@@ -8,7 +8,6 @@ import java.io.*;
 
 public class LogGUI {
     private Stu_log user; // Instance of Stu_log class to store user login state
-
     private JFrame loginFrame;
     private JTextField idField;
     private JPasswordField passwordField;

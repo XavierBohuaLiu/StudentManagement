@@ -25,19 +25,19 @@ public class VolunteeringAppTest {
 
     @Test
     public void testSaveTableDataToFile() {
-        // 添加一些测试数据
+
         tableModel.addRow(new Object[]{"1", "Work 1", "10 hours", "5 credits"});
         tableModel.addRow(new Object[]{"2", "Work 2", "8 hours", "4 credits"});
         tableModel.addRow(new Object[]{"3", "Work 3", "6 hours", "3 credits"});
 
-        // 调用 saveTableDataToFile 方法
+
         volunteeringApp.saveTableDataToFile(TEST_FILE_PATH);
 
-        // 验证文件是否正确保存
+
         assertTrue(Files.exists(Paths.get(TEST_FILE_PATH)));
 
         try (BufferedReader reader = new BufferedReader(new FileReader(TEST_FILE_PATH))) {
-            // 验证每一行数据是否正确保存
+
             String line = reader.readLine();
             assertEquals("1,Work 1,10 hours,5 credits", line);
 
@@ -50,7 +50,7 @@ public class VolunteeringAppTest {
             e.printStackTrace();
         }
 
-        // 清理测试数据
+
         cleanupTestData();
     }
 
@@ -64,7 +64,7 @@ public class VolunteeringAppTest {
 
     @After
     public void tearDown() {
-        // 清空表格数据
+
         tableModel.setRowCount(0);
     }
 }
