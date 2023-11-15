@@ -12,15 +12,16 @@ This is a student information management platform designed for course lecturer a
 
 ### Dependence Installation
 #### JDK Libraries
-This project requires JDK for compiling and running Java code. This project is written using JDK 17.0.1. We recommend using JDK 8 or a higher version. You can download and install JDK from the Oracle official website or other appropriate sources.
+This project requires JDK for compiling and running Java code. This project is written using JDK 17.0.1. JDK 8 or a higher version is recommended for execution.
 
-Java Standard Library: This project relies on classes and methods from the Java Standard Library. These libraries include packages such as java.lang, java.util, and others, which provide various core functionalities like collections, string handling, input/output, and more.
-#### Encoding and Decoding Tools
+Java Standard Library: This project relies on classes and methods from the Java Standard Library. Here are the dependency list
+```
+java.lang
+java.util
 ...
+```
+#### Encoding and Decoding Tools
+TODO: Add the insturctions here
 
 ### Compiling and Running Instuctions
-Before you can compile and run this project, ensure that you have the following prerequisites:
-Java Development Kit (JDK) 8 or higher is installed.
-
-
-Thank you for using and welcome to provide feedback XavierBohua.Liu@hotmail.com
+TODO: Add detailed instructions on how to execute your program. I tried to compile those .java but not working well. When compiling StudentGradeApp.java, several types of errors poped up, including errors caused by using mixed chinese & english comments, etc.

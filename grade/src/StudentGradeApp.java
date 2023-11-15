@@ -30,7 +30,6 @@ public class StudentGradeApp extends JPanel {
     public StudentGradeApp() {
         setLayout(new BorderLayout());
 
-        // 表格模型
         tableModel = new DefaultTableModel();
         tableModel.addColumn("Course Name");
         tableModel.addColumn("Year");
@@ -38,16 +37,13 @@ public class StudentGradeApp extends JPanel {
         tableModel.addColumn("Credit");
         tableModel.addColumn("Score");
 
-        // 成绩表格
         gradeTable = new JTable(tableModel);
         JScrollPane scrollPane = new JScrollPane(gradeTable);
         add(scrollPane, BorderLayout.CENTER);
 
-        // 按钮面板
         JPanel buttonPanel = new JPanel();
         add(buttonPanel, BorderLayout.SOUTH);
 
-        // 添加成绩按钮
         JButton addGradeButton = new JButton("Add Grade");
         addGradeButton.addActionListener(new ActionListener() {
             @Override
@@ -57,7 +53,6 @@ public class StudentGradeApp extends JPanel {
         });
         buttonPanel.add(addGradeButton);
 
-        // 修改成绩按钮
         JButton updateGradeButton = new JButton("Update Grade");
         updateGradeButton.addActionListener(new ActionListener() {
             @Override
@@ -67,7 +62,6 @@ public class StudentGradeApp extends JPanel {
         });
         buttonPanel.add(updateGradeButton);
 
-        // 删除成绩按钮
         JButton deleteGradeButton = new JButton("Delete Grade");
         deleteGradeButton.addActionListener(new ActionListener() {
             @Override
@@ -77,7 +71,6 @@ public class StudentGradeApp extends JPanel {
         });
         buttonPanel.add(deleteGradeButton);
 
-        // 课程名称过滤按钮
         JButton filterByCourseButton = new JButton("Filter by Course");
         filterByCourseButton.addActionListener(new ActionListener() {
             @Override
@@ -87,7 +80,6 @@ public class StudentGradeApp extends JPanel {
         });
         buttonPanel.add(filterByCourseButton);
 
-        // 学年过滤按钮
         JButton filterByYearButton = new JButton("Filter by Year");
         filterByYearButton.addActionListener(new ActionListener() {
             @Override
@@ -97,7 +89,6 @@ public class StudentGradeApp extends JPanel {
         });
         buttonPanel.add(filterByYearButton);
 
-        // 生成折线图按钮
         JButton generateChartButton = new JButton("Generate Chart");
         generateChartButton.addActionListener(new ActionListener() {
             @Override
@@ -107,15 +98,12 @@ public class StudentGradeApp extends JPanel {
         });
         buttonPanel.add(generateChartButton);
 
-        // 初始化成绩列表
         grades = new ArrayList<>();
 
-        // 加载并显示成绩
         loadGrades();
         displayGrades();
     }
 
-    // 添加成绩
     private void addGrade() {
         JPanel panel = new JPanel(new GridLayout(5, 2));
         JTextField courseNameField = new JTextField();
@@ -156,7 +144,6 @@ public class StudentGradeApp extends JPanel {
     }
 
 
-    // 修改成绩
     private void updateGrade() {
         int selectedRow = gradeTable.getSelectedRow();
         if (selectedRow != -1) {
@@ -175,7 +162,6 @@ public class StudentGradeApp extends JPanel {
         }
     }
 
-    // 删除成绩
     private void deleteGrade() {
         int selectedRow = gradeTable.getSelectedRow();
         if (selectedRow != -1) {
@@ -188,7 +174,6 @@ public class StudentGradeApp extends JPanel {
         }
     }
 
-    // 按课程名称筛选成绩
     private void filterByCourse() {
         String courseName = JOptionPane.showInputDialog("Enter course name:");
         if (courseName != null) {
@@ -202,7 +187,6 @@ public class StudentGradeApp extends JPanel {
         }
     }
 
-    // 按学年筛选成绩
     private void filterByYear() {
         String year = JOptionPane.showInputDialog("Enter year:");
         if (year != null) {
@@ -216,7 +200,6 @@ public class StudentGradeApp extends JPanel {
         }
     }
 
-    // 生成折线图
     private void generateChart() {
         DefaultCategoryDataset dataset = new DefaultCategoryDataset();
 
@@ -275,7 +258,6 @@ public class StudentGradeApp extends JPanel {
         frame.setVisible(true);
     }
 
-    // 保存成绩到文本文件
     private void saveGrades() {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(gradeFilePath))) {
             for (Grade grade : grades) {
@@ -288,7 +270,6 @@ public class StudentGradeApp extends JPanel {
         }
     }
 
-    // 加载成绩从文本文件
     private void loadGrades() {
         File file = new File(gradeFilePath);
         if (file.exists()) {
@@ -312,7 +293,6 @@ public class StudentGradeApp extends JPanel {
         }
     }
 
-    // 显示所有成绩
     private void displayGrades() {
         tableModel.setRowCount(0);
         for (Grade grade : grades) {
@@ -321,7 +301,6 @@ public class StudentGradeApp extends JPanel {
         }
     }
 
-    // 显示筛选后的成绩
     private void displayFilteredGrades(List<Grade> filteredGrades) {
         tableModel.setRowCount(0);
         for (Grade grade : filteredGrades) {
