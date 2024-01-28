@@ -15,13 +15,17 @@ This is a student information management platform designed for course lecturer a
 This project requires JDK for compiling and running Java code. This project is written using JDK 17.0.1. JDK 8 or a higher version is recommended for execution.
 
 Java Standard Library: This project relies on classes and methods from the Java Standard Library. Here are the dependency list
-```
 java.lang
 java.util
-...
-```
+java.nio
+java.awt
+java.io
+javax.swing
+
 #### Encoding and Decoding Tools
-TODO: Add the insturctions here
+Base64
+GBK8
 
 ### Compiling and Running Instuctions
-TODO: Add detailed instructions on how to execute your program. I tried to compile those .java but not working well. When compiling StudentGradeApp.java, several types of errors poped up, including errors caused by using mixed chinese & english comments, etc.
+Open the grade folder and use the main method in the execute.java file.
+The program concatenates the different java file boards. Open the method to see the java gui interface and manipulate it.
